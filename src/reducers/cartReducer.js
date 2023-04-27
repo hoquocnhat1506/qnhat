@@ -13,13 +13,13 @@ const cartActionTypes = {
 export const couponOptions = [
 	{
 		id: 1,
-		coupon: "10% off on orders above ₹999",
+		coupon: "10% off on orders above 999.VNĐ",
 		discount: 10,
 		minValue: 999,
 	},
 	{
 		id: 2,
-		coupon: "20% off on orders above ₹1999",
+		coupon: "20% off on orders above 1999.VNĐ",
 		discount: 20,
 		minValue: 1999,
 	},

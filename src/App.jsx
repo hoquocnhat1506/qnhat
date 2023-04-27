@@ -45,6 +45,7 @@ function App() {
 				</span>
 			</button>
 			<Navbar />
+			
 			<Routes />
 			<Footer />
 		</div>

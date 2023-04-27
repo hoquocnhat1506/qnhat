@@ -102,7 +102,7 @@ const CheckoutSummary = () => {
 			key: process.env.REACT_APP_RAZORPAY_KEY,
 			amount: checkoutData?.price * 100,
 			currency: "INR",
-			name: "Bookery",
+			name: "Smartbooks",
 			description: "Thank you for shopping!",
 			image: bookeryIcon,
 
@@ -152,7 +152,7 @@ const CheckoutSummary = () => {
 				<div className="flex-row order-items-head flex-justify-between flex-align-center pt-0-75 pb-0-25">
 					<h6 className="item-head">Total</h6>
 					<h6 className="item-head text-right">
-						₹ {checkoutData?.price}
+						{checkoutData?.price}.VNĐ
 					</h6>
 				</div>
 			</div>

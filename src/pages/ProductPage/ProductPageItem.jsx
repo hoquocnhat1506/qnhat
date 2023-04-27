@@ -39,7 +39,7 @@ const ProductPageItem = () => {
 	const { setDocumentTitle } = useDocumentTitle();
 
 	useEffect(() => {
-		setDocumentTitle("Bookery | Product");
+		setDocumentTitle("Smartbooks | Product");
 
 		(async () => {
 			productDispatch({

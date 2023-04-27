@@ -6,6 +6,7 @@ import { StateProvider } from "./StateProvider";
 import ToastPortal from "ToastPortal";
 import ModalPortal from "ModalPortal";
 
+
 ReactDOM.render(
 	<React.StrictMode>
 		<Router>

@@ -17,7 +17,7 @@ const Checkout = () => {
 	const { setDocumentTitle } = useDocumentTitle();
 
 	useEffect(() => {
-		setDocumentTitle("Bookery | Checkout");
+		setDocumentTitle("Smartbooks| Checkout");
 		if (!checkoutData) {
 			navigate("/products");
 		}

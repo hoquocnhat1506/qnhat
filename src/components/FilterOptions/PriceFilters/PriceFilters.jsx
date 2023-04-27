@@ -20,7 +20,7 @@ const PriceFilters = () => {
 			<ul className="list list-stacked list-style-none mt-1 mb-1-5 filter-list">
 				<label htmlFor="product-price-slider">
 					<h6 className="filter-head text-reg list-head px-0-5 py-0-25 my-0-5">
-						Price - ₹ {price}
+						Price - {price}.VNĐ
 					</h6>
 					<input
 						type="range"

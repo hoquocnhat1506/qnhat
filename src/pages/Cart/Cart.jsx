@@ -15,7 +15,7 @@ const Cart = () => {
 	const { setDocumentTitle } = useDocumentTitle();
 
 	useEffect(() => {
-		setDocumentTitle("Bookery | Cart");
+		setDocumentTitle("Smartbooks | Cart");
 	}, []);
 
 	return (
